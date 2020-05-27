@@ -21,9 +21,10 @@ def play(model, weights):
 
     featureExpectations = np.zeros(len(weights))
 
-    # Move.
+    # Move. dib book
     #time.sleep(15)
     while True:
+        time.sleep(0.01)
         car_distance += 1
 
         # Choose action.
